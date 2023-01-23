@@ -265,9 +265,39 @@ footer p {
         justify-content: center;
         align-items: center;              
     }
-    
+
+    div.card {
+        width: 100%;
+        position: relative;
+    }
+
+    section#preco {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
     section#video iframe{
         width: 90%;
+    }
+
+
+    div.card button {
+        font-size: 10px;
+        height: 40px;
+        width: 70px;
+    }
+
+
+    div ul li {
+        flex-direction: column;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    
+    footer {
+        padding: 55px;
     }
    
 }
